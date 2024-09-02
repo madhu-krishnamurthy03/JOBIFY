@@ -1,0 +1,27 @@
+/* EditorStyles.css */
+
+.editor-container {
+    border: 1px solid #ddd; /* Border color and thickness */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 8px; /* Padding inside the editor */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 400px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scroll if needed */
+    margin-left: 80px;
+}
+/* Parent container styling */
+.parent-container {
+    position: relative;
+}
+.editor-container .public-DraftEditor-content {
+    min-height: 100%; /* Ensure the content area takes up the full height */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 14px; /* Smaller font size */
+    line-height: 1.4; /* Line height for readability */
+}
+
+.editor-container .public-DraftEditorPlaceholder-root {
+    color: #aaa; /* Placeholder text color */
+}
